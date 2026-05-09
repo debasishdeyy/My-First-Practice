@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My Portfolio</title>
+</head>
+
+<body>
+
+    <header>
+        <h1> Hola! My name is Debasish Dey</h1>
+        <h2> Education: I am currently studying Bachelor of Computer Applications</h2>
+    </header>
+
+    <main>
+
+        <!-- i created here section part -->
+        <section>
+            <h3>School: Pranavananda Vidya mandir</h3>
+        </section>
+        <section>
+            <h3>School built my foundations proficiently</h3>
+        </section>
+
+        <!-- i created here display table part -->
+
+        <table>
+            <caption>Academic Performance</caption>
+            <thead>
+                <tr>
+                </tr>
+                <th colspan="4">Academic Performance</th>
+                <th>Name</th>
+                <th>Year</th>
+                <th>Class</th>
+                <th>Percentage</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Debasish Dey</td>
+                    <td>2018</td>
+                    <td>10th</td>
+                    <td>90%</td>
+                </tr>
+                <tr>
+                    <td>Priya Sharma</td>
+                    <td>2020</td>
+                    <td>12th</td>
+                    <td>85%</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h3>Experience: 1 year at
+            <img src="https://s3.ap-south-1.amazonaws.com/assets.ynos.in/startup-logos/YNOS306425.jpg"
+                alt="Organisation Logo" width="50"> as Business Support Associate
+        </h3>
+        <h3>Skills: Html,Css,Javascript</h3>
+
+        <h2>Frontend Developer</h2>
+        <ul>
+            <li>HTML</li>
+            <ul>
+                <li>The skeleton of a webpage: headers, paragraphs, sections, navigation menus, footers,
+                    etc.</li>
+            </ul>
+            <li>CSS</li>
+            <ul>
+                <li>
+                    CSS defines the presentation and layout of a webpage: colors, fonts, spacing,
+                    positioning, and responsive behavior.
+                </li>
+            </ul>
+            <li>JavaScript</li>
+            <ul>
+                <li>
+                    JavaScript defines the behavior and interactivity of a webpage.
+                </li>
+            </ul>
+        </ul>
+        <p>As a frontend developer, I am passionate about creating visually appealing and user-friendly
+            websites. I have experience working with HTML, CSS, and JavaScript to build responsive and
+            interactive web pages. I enjoy collaborating with designers and backend developers to bring
+            ideas to life and create seamless user experiences.</p>
+
+        <article>
+            <h2>My Journey Learning Web Developement </h2>
+            <p>I recently started learning HTML5 and web development.
+                At first, everything looked confusing, especially tags,
+                layouts, and how browsers render webpages.
+                But slowly I started understanding how HTML creates
+                the structure of a website and how CSS adds design.</p>
+
+            <p>
+                My goal is to become a skilled frontend developer
+                and eventually work as an SDE Intern.
+                Every day I try to learn something new and improve
+                my coding skills by building small projects.
+            </p>
+
+            <!-- here i used target="_main" tom open link in different tab , i used the image inside redirecting as img src="link" -->
+            <h3>I am currently working with <a href="https://ilogitron.com/" target="_main"><img src="logo1.png"
+                        alt="Ilogitron Technologies" width="100"></a></h3>
+
+            <!-- through tutorial i didnt undertsand why aside is normally used -->
+            <aside>
+                This is ad
+            </aside>
+        </article>
+        </section>
+    </main>
+
+    <!-- in this footer part , if didnt define the footer class as h5 , it asigns aligns my working email , in the centre , in the diown there , i used one -->
+
+    <footer>
+        <style>
+            footer h5 {
+                text-align: left;
+            }
+        </style>
+        <h5>Contact me at <a href="mailto:debasish.dey@ilogitron.com">debasish.dey@ilogitron.com</a></h5>
+    </footer>
+    </footer>
+
+    <!-- in the nav a i used margin 10 px , to give extra space betweeen links like index.html,about.html n all  -->
+
+    <style>
+        nav a {
+            margin: 10px;
+        }
+    </style>
+    <header>
+        <h1>My Portfolio</h1>
+        <nav>
+            <a href="index.html" target="_main">Home</a>
+            <a href="about.html" target="_main">About</a>
+            <a href="projects.html" target="_main">Projects</a>
+            <a href="contact.html" target="_main">Contact</a>
+        </nav>
+    </header>
+
+    <div>
+        <h2>About Me</h2>
+        <p>I am learning HTML CSS JS to become developer</p>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8aLsWd_HyW74m_k1hB8HrnKIvXd6b9GRfIkj--zCXXeRC4I3Xl-Dat4dMgABcCryarrvJM-mBOJqVU7fbEmhjyT2PgUVZ3n-RSuVShLoX7g&s=10"
+            alt="Profile Image" height="100">
+
+    </div>
+
+    <div>
+        <h2>Skills</h2>
+        <ol> <!-- here i used ol that means ordered list & <li> defines bullets it can be numeric or roman or it can be alphabetic -->
+
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ol>
+    </div>
+
+    <div>
+        <h2>Contact</h2>
+
+        <form>
+            <!-- here i used form tag to create a form for contact me section , and inside form i used input tag to create input field for name and email and textarea for message and submit button to send the message , without send button user wont be able to submit the data  -->
+            <br>
+            <input type="text" placeholder="Name">
+            <br>
+            <input type="email" placeholder="Email">
+            <br>
+            <textarea placeholder="Message"></textarea>
+            <br>
+            <input type="submit" value="Send">
+            <br>
+        </form>
+
+    </div>
+
+    <footer>
+
+        <!-- here i used style tag to align the text in the center of the footer and also i used small tag to make the text smaller than normal text -->
+        <style>
+            footer {
+                text-align: center;
+            }
+        </style>
+        <small> Made with HTML All copyright reserved </small>
+    </footer>
+
+</body>
+
+</html>
