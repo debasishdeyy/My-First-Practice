@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="registration.css">
+</head>
+
+<body>
+
+    <video autoplay muted loop class="background-video">
+        <source src="background-video.mp4" type="video/mp4">
+    </video>
+
+
+    <h1>Registration</h1>
+    <form action="/submit_registration" method="post" enctype="multipart/form-data">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required><br><br>
+
+        <h3>Upload Profile Picture</h3>
+        <label for="file">Upload File</label>
+        <input type="file" id="file" name="file" required><br><br>
+
+        <h3>Upload your Aadhaar Card</h3>
+        <label for="aadhaar">Upload File</label>
+        <input type="file" id="aadhaar" name="aadhaar" required><br><br>
+
+        <h3>Upload your PAN Card</h3>
+        <label for="pan">Upload File</label>
+        <input type="file" id="pan" name="pan" required><br><br>
+
+        <input type="submit">
+    </form>
+</body>
+
+</html>
